@@ -1,0 +1,59 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Dance Academy
+        style 
+            include ../static/style.css
+    body
+      nav#navbar
+        ul 
+            div.logo
+                img(src="static/img/img.png", alt="")
+                | SDA
+            li #[a(href='/') Home]
+            li #[a(href='/') Services]
+            li #[a(href='/') Pricing]
+            li #[a(href='/') About]
+            li #[a(href='/') Contact Us]
+      section#introSection
+        div
+            h1 Welcome to Suri's Dance Acadmey
+        div 
+            h3 Eat Dance Sleep Repeat
+      section#missionSection
+            h2 Our Mission   
+            div.card
+                h3 Dance with Perfection
+                div.card-box
+                    div.cardimg
+                        img(src="static/img/img2.png", alt="")
+                    div.cardcontent
+                        p this is the best dance academy all around the world
+            div.card
+                h3 Dance like a pro
+                div.card-box
+                    div.cardimg
+                        img(src="static/img/img3.png", alt="")
+                    div.cardcontent
+                        p this is the best dance academy all around the world
+            div.card
+                h3 Dance with your life
+                div.card-box
+                    div.cardimg
+                        img(src="static/img/img4.png", alt="")
+                    div.cardcontent
+                        p this is the best dance academy all around the world
+      section#sponsorSection
+            h2 Our Sponsors
+            div#sponsors
+                img(src="static/img/img6.png", alt="")
+                img(src="static/img/img7.png", alt="")
+                img(src="static/img/img8.png", alt="")
+                img(src="static/img/img9.png", alt="")
+      footer
+        | Copyright © 2023 suridanceacademy.com | All rights reserved
+      script 
+        include ../static/index.js

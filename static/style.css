@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+.logo{
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo img{
+    margin-right: 10px;
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: black;
+    padding-block: 10px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    padding-inline: 30px;
+}
+#navbar a:hover{
+    color: tomato;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('https://images.unsplash.com/photo-1550026593-f369f98df0af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center/cover;
+    height: 300px;
+}
+
+#introSection h1{
+    font-size: 4rem;
+} 
+
+#missionSection{
+    color: black;
+    height: 300px;
+    background-color: gainsboro;
+}
+
+
+.card{
+    display: inline-block;
+    margin: 25px;
+    width: 20%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(172, 255, 47, 0.461);
+}
+
+.card-box{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardimg{
+    height: 120px;
+}
+
+.cardimg img{
+    height: inherit;
+}
+
+#sponsorSection{
+    color: black;
+}
+
+#sponsors img{
+    margin: 40px;
+    height: 70px;
+}
+
+footer{
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
